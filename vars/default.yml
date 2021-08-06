@@ -1,0 +1,7 @@
+---
+app_user: "anss"
+http_host: "my_main"
+http_conf: "my_main.conf"
+http_port: "80"
+disable_default: true
+fe_repo: git@github.com:hong4rc/test-fe.git
