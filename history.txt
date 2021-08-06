@@ -1,0 +1,558 @@
+    1  sudo ./autorun.sh
+    2  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    3  sudo apt-get install build-essential
+    4  lshw
+    5  lshw -l -network
+    6  lshw  -network
+    7  lshw -class network
+    8  sudo add-apt-repository --yes --update ppa:ansible/ansible
+    9  sudo apt update
+   10  sudo apt install software-properties-common
+   11  sudo apt install ansible git openjdk-8-jdk
+   12  sudo apt-get dist-upgrade
+   13  ls
+   14  cd .ssh/
+   15  ls
+   16  ls -l
+   17  mv id_rsa bak/
+   18  mv id_rsa.pub bak/
+   19  ls -l
+   20  sudo sh autorun.sh
+   21  lshw -class network
+   22  sudo sh autorun.sh
+   23  sh autorun.sh
+   24  sudo ./autorun.sh
+   25  sh autorun.sh
+   26  sudo sh autorun.sh
+   27  sudo ./autorun.sh
+   28  sudo sh ./autorun.sh
+   29  deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
+   30  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+   31  sudo apt update
+   32  sudo apt install ansible
+   33  ansible
+   34  sudo sh ./autorun.sh
+   35  ansible-playbook
+   36  sudo sh autorun.sh
+   37  sudo depmod -a
+   38  sudo sh autorun.sh
+   39  sudo depmod
+   40  sudo modprobe
+   41  sudo modprobe r8125
+   42  sudo make all install clean
+   43  sudo systemctl restart mysql
+   44  systemctl status mysql.service
+   45  sudo systemctl restart mysql
+   46  mysql -u root -p
+   47  sudo systemctl restart mysql
+   48  mysql -u root -p
+   49  mysql -V
+   50  ssh-copy-id ssh root@163.43.133.8
+   51  ssh-copy-id root@163.43.133.8
+   52  ssh 'root@163.43.133.8'
+   53  mysql -u root -p
+   54  sudo systemctl stop mysql
+   55  mysqld_safe
+   56  sudo mysqld_safe
+   57  sudo mysqld_safe --skip-grant-tables &
+   58  mysql -u root
+   59  sudo systemctl restart mysql
+   60  sudo mysqld_safe --skip-grant-tables &
+   61  mysql -uroot
+   62  sudo systemctl start mysql
+   63  mysql -u root -p
+   64  exit
+   65  sudo apt install nodejs
+   66  npm
+   67  node -v
+   68  sudo apt install npm
+   69  ls /opt/
+   70  exit
+   71  sudo adduser anss
+   72  ssh anss@127.0.0.1
+   73  sudo apt install openssh-server
+   74  systemctl status
+   75  systemctl status ssh
+   76  ssh anss@127.0.0.1
+   77  echo $SHELL
+   78  nano vars/default.yml
+   79  a2ensite
+   80  ansible-playbook -l 127.0.0.1 -u anss playbook.yml
+   81  ansible-playbook -i 127.0.0.1 -u anss playbook.yml
+   82  ansible-playbook -i '127.0.0.1' -u anss playbook.yml
+   83  ansible-playbook -i hosts.ini  playbook.yml
+   84  ssh-copy-id anss@127.0.0.1
+   85  ssh-keygen -t ed25519 -C "hong4rc@gmail.com"
+   86  ssh-copy-id anss@127.0.0.1
+   87  ssh 'anss@127.0.0.1'
+   88  ansible-playbook -i hosts.ini  playbook.yml
+   89  ssh 'anss@127.0.0.1'
+   90  ansible-playbook -i hosts.ini  playbook.yml
+   91  usermod -aG sudo anss
+   92  sudo usermod -aG sudo anss
+   93  echo /etc/group
+   94  ls /etc/group
+   95  cat /etc/group
+   96  ansible-playbook -i hosts.ini  playbook.yml
+   97  ansible -i hosts.ini  playbook.yml
+   98  ansible-playbook -i hosts.ini  playbook.yml
+   99  ls /var/www
+  100  ls /var/www/my_main
+  101  ls -l /var/www
+  102  ansible-playbook -i hosts.ini  playbook.yml
+  103  sudo systemctl service apache
+  104  sudo systemctl service apache2
+  105  sudo systemctl service
+  106  sudo systemctl
+  107  sudo systemctl status apache
+  108  sudo systemctl status apache2
+  109  sudo systemctl stop apache2
+  110  ansible-playbook -i hosts.ini  playbook.yml
+  111  sudo systemctl stop apache2
+  112  ansible-playbook -i hosts.ini  playbook.yml
+  113  ls /var/www
+  114  ls -l  /var/www
+  115  ls -l  /var/www/my_main/
+  116  ansible-playbook -i hosts.ini  playbook.yml
+  117  sudo apt-get install mysql-server
+  118  mysql
+  119  mysql -u root -p
+  120  sudo systemctl restart mysql
+  121  mysql -u root -p
+  122  vi /etc/mysql/my.cnf
+  123  sudo vi /etc/mysql/my.cnf
+  124  sudo code /etc/mysql/my.cnf
+  125  sudo nautilus /etc/mysql/my.cnf
+  126  ls /opt/
+  127  ssh anss@localhost
+  128  ssh anss@127.0.0.1
+  129  ansible-playbook -i hosts.ini  playbook.yml
+  130  ls /home/anss/.ssh/
+  131  sudo ls /home/anss/.ssh/
+  132  sudo ls /home/anss/.ssh/id_ed25519
+  133  ansible-playbook -i hosts.ini  playbook.yml
+  134  Host key verification failed.\r\nfatal: Could not read from remote repository
+  135  ssh anss@127.0.0.1
+  136  ansible-playbook -i hosts.ini  playbook.yml
+  137  ls /opt/repository/
+  138  ls /opt/repository/test-fe/
+  139  rm -rf  /opt/repository/test-fe/
+  140  ls -l /opt/repository/test-fe/
+  141  sudo rm -rf  /opt/repository/test-fe/
+  142  ansible-playbook -i hosts.ini  playbook.yml
+  143  ls /opt/repository/
+  144  ls -l /opt/repository/
+  145  ansible -v
+  146  ansible -V
+  147  ansible --version
+  148  sudo apt-get uninstall aptitude
+  149  sudo apt-get remove aptitude apache2
+  150  ansible-playbook -i hosts.ini  playbook.yml
+  151  ls /opt/repository/
+  152  ls /opt/repository/test-fe/
+  153  ansible-playbook -i hosts.ini  playbook.yml
+  154  ls /opt/repository/test-fe/
+  155  ls -l /opt/repository/test-fe/
+  156  cd  /opt/repository/test-fe/
+  157  sh a.sh
+  158  cd ~/Project/ansible/test
+  159  ansible-playbook -i hosts.ini  playbook.yml
+  160  ls /opt/repository/test-fe/
+  161  ls /opt/repository/test-fe/dist/
+  162  cd  /opt/repository/test-fe/dist/
+  163  cd ..
+  164  git status
+  165  exit
+  166  ansible-playbook -i hosts.ini  playbook.yml
+  167  ansible-galaxy
+  168  sudo vi index.html
+  169  ls -l
+  170  sudo vi index.html
+  171  touch .gitignore
+  172  git add .
+  173  git commit -m "a"
+  174  git push
+  175  git init .
+  176  git add .
+  177  git commit -m "first commit"
+  178  git config --global user.email "you@example.com"
+  179  git config --global user.email "hong4rc@gmail.com"
+  180  it config --global user.name "Anh Hong"
+  181  git config --global user.name "Anh Hong"
+  182  git commit -m "first commit"
+  183  git branch -M main
+  184  git remote add origin https://github.com/hong4rc/test-fe.git
+  185  git push -u origin main
+  186  cat /home/hong4rc/.ssh/id_ed25519.pub
+  187  git remote add origin git@github.com:hong4rc/test-fe.git
+  188  git remote set origin git@github.com:hong4rc/test-fe.git
+  189  git remote set-url origin git@github.com:hong4rc/test-fe.git
+  190  git push -u origin main
+  191  cat /home/anss/.ssh/id_ed25519.pub
+  192  sudo cat /home/anss/.ssh/id_ed25519.pub
+  193  touch a.sh
+  194  chmod +x a.sh
+  195  vi a.sh
+  196  code a.sh
+  197  sudo ./autorun.sh
+  198  sudo make
+  199  sudo ./autorun.sh
+  200  lshw -class network
+  201  sh autorun.sh
+  202  ls
+  203  ls -l
+  204  sudo ls -l
+  205  sudo sh autorun.sh
+  206  cd src/
+  207  make
+  208  cd ..
+  209  sudo apt-get install build-essential
+  210  sudo apt autoremove
+  211  sudo apt-get update
+  212  sudo apt-get install --reinstall make
+  213  gcc -v
+  214  timedatectl set-local-rtc 1 --adjust-system-clock
+  215  timedatectl
+  216  timedatectl set-local-rtc 0
+  217  make
+  218  sudo make
+  219  sudo ifconfig
+  220  sudo apt-get install net-tools
+  221  ifconfig
+  222  sudo sh autorun.sh
+  223  sudo apt-get install mokutil
+  224  mokutil --sb-state
+  225  sudo mokutil --disable-validation
+  226  sudo sh autorun.sh
+  227  ls
+  228  cat playbook.yml
+  229  sudo apt install bat
+  230  bat playbook.yml
+  231  batcat
+  232  batcat playbook.yml
+  233  mkdir -p ~/.local/bin
+  234  ln -s /usr/bin/batcat ~/.local/bin/bat
+  235  bat playbook.yml
+  236  sudo apt install exa
+  237  git init
+  238  git add .
+  239  git status
+  240  git remote add origin https://github.com/hong4rc/ansible.git
+  241  git add .
+  242  git commit -m "Init"
+  243  git push
+  244  git branch -M main
+  245  git push
+  246  git push --set-upstream origin main
+  247  git remote set-url origin git@github.com:hong4rc/ansible.git
+  248  git push --set-upstream origin main
+  249  which ansible
+  250  ansible-playbook -i hosts.ini  playbook.yml
+  251  which sh
+  252  ansible-playbook -i hosts.ini  playbook.yml
+  253  ls -l  /opt/repository/
+  254  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg     lsb-release
+  255  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  256  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  257    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  258  sudo apt-get update
+  259  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  260  sudo systemctl start docker
+  261  docker ps
+  262  sudo docker ps
+  263  sudo systemctl stop docker
+  264  systemctl stop docker
+  265  systemctl start docker
+  266  docker ps
+  267  sudo docker ps
+  268  nautilush .
+  269  nautilus.
+  270  nautilus .
+  271  docker info > /dev/null 2>&1
+  272  # Ensure that Docker is running...
+  273  if [ $? -ne 0 ]; then     echo "Docker is not running."     exit 1; fi
+  274  sudo apt-get update
+  275  sudo apt-get upgrade
+  276  sudo apt-get dist-upgrade
+  277  docker info
+  278  sudo usermod -a -G docker hong4rc
+  279  docker info
+  280  sudo usermod -a -G docker $USER
+  281  reboot
+  282  docker info
+  283  systemctl reboot -i
+  284  composer install
+  285  npm run dev
+  286  tail -f error.log
+  287  docker ls
+  288  docker ps
+  289  ls /etc/apache2/sites-available/
+  290  ls /etc/apache2/sites-available/my_main.conf
+  291  cat /etc/apache2/sites-available/my_main.conf
+  292  ansible-playbook -i hosts.ini playbook.yml
+  293  history > history.txt
+  294  exit
+  295  mkdir laravel
+  296  cd laravel/
+  297  curl -s https://laravel.build/example-app | bash
+  298  docker pull laravelsail/php80-composer:latest
+  299  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  300  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  301  php composer-setup.php
+  302  php -r "unlink('composer-setup.php');"
+  303  sudo apt install php7.4-cli
+  304  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  305  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  306  php composer-setup.php
+  307  php -r "unlink('composer-setup.php');"
+  308  ls compose
+  309  which compose
+  310  composer global require laravel/installer
+  311  which compose
+  312  /usr/bin/compose
+  313  /usr/bin/compose global require laravel/installer
+  314  ls
+  315  sudo mv composer.phar /usr/local/bin/composer
+  316  compose
+  317  composer
+  318  composer global require laravel/installer
+  319  ls
+  320  laravel
+  321  ls -l $HOME/.config/composer
+  322  ls -l \$HOME/.config/composer/vendor/bin
+  323  ls -l $HOME/.config/composer/vendor/bin
+  324  $HOME/.config/composer/vendor/bin/laraven
+  325  $HOME/.config/composer/vendor/bin/laravel
+  326  $HOME/.config/composer/vendor/bin/laravel new test_lrv
+  327  ls
+  328  cd test_lrv/
+  329  ls
+  330  cd ..
+  331  ls
+  332  cp test_lrv/ '/var/www/html/'
+  333  cp -r test_lrv/ '/var/www/html/'
+  334  sudo cp -r test_lrv/ '/var/www/html/'
+  335  systemctl restart apache2
+  336  ls
+  337  cd test_lrv/
+  338  composer install
+  339  explorer
+  340  nautilus .
+  341  composer install
+  342  composer global require laravel/installer=7.4
+  343  cd ..
+  344  ls
+  345  rm -rf test_lrv/
+  346  composer create-project --prefer-dist laravel/laravel:^7.0 blog-fake
+  347  ls
+  348  cd blog-fake/
+  349  composer install
+  350  composer config -g repo.packagist
+  351  composer config -g repo.packagist composer https://repo.packagist.org
+  352  composer install
+  353  sudo apt-get install php-mbstring
+  354  composer install
+  355  php -v
+  356  sudo apt-get install php7.4-curl
+  357  composer install\
+  358  sudo apt install php-xml
+  359  composer install\
+  360  composer install
+  361  php artisan serve
+  362  ls
+  363  cd ..
+  364  ls
+  365  cp blog-fake/* /var/www/my_main/
+  366  cp -r blog-fake/* /var/www/my_main/
+  367  sudo cp -r blog-fake/* /var/www/my_main/
+  368  php artisan serve
+  369  ls
+  370  cd blog-fake/
+  371  php artisan serve
+  372  sudo systemctl restart apache2
+  373  sudo systemctl restart apache2k
+  374  sudo systemctl stop apache2
+  375  sudo systemctl restart apache2k
+  376  sudo systemctl restart apache2
+  377  php artisan key:generate
+  378  ls
+  379  cp -R * /var/www/my_main
+  380  sudo cp -R * /var/www/my_main
+  381  sudo systemctl restart apache2k
+  382  sudo systemctl restart apache2
+  383  cd $HOME
+  384  mkdir projects
+  385  cd projects
+  386  composer create-project laravel/laravel laravel_project --prefer-dist 5.2.*
+  387  ## Check installation
+  388  cd laravel_project
+  389  chmod -R 777 storage bootstrap/cache
+  390  ls -la
+  391  chmod -R 775 storage bootstrap/cache
+  392  ls
+  393  sudo chown
+  394  ls
+  395  ls -la
+  396  cd /home/hong4rc/Project/ansible/laravel/blog-fake/
+  397  ls
+  398  ls -la
+  399  sudo chmod -R 755 storage
+  400  sudo chmod -R 755 bootstrap/cache/
+  401  sudo systemctl restart apache2k
+  402  sudo systemctl restart apache2
+  403  php artisan
+  404  cd ..
+  405  php artisan
+  406  cd blog-fake/
+  407  chmod -R 777 storage bootstrap/cache
+  408  ls -la
+  409  git init
+  410  git add .
+  411  git status
+  412  git commit -m "Init"
+  413  git branch -M main
+  414  git remote add origin git@github.com:hong4rc/laravel-test.git
+  415  git log
+  416  git push -u origin main
+  417  hisroty
+  418  histoty
+  419  history
+  420  history
+  421  cd ..\
+  422  ls
+  423  cd html/
+  424  ls
+  425  mv index.html  a.html
+  426  sudo mv index.html  a.html
+  427  ls
+  428  cd ..
+  429  ls
+  430  cd my_main/
+  431  sudo mv index.html  a.html
+  432  composer install
+  433  sudo composer install
+  434  ls /etc/apache2/mods-enabled/
+  435  sudo apt-get install php libapache2-mod-php
+  436  cd /etc/apache2/
+  437  grep
+  438  grep AddType * -r
+  439  ls
+  440  nano mods-enabled/php.conf &
+  441  ls
+  442  cd mods-enabled
+  443  ls
+  444  grep AddType * -r
+  445  vi php7.4.conf
+  446  sudo service apache2 restart
+  447  cd /var/www/
+  448  ls
+  449  cd my_main/
+  450  ls
+  451  ls -l
+  452  chmod -R 775 storage/
+  453  sudo chmod -R 775 storage/
+  454  a2nemod rewrite
+  455  a2enmod
+  456  a2enmod rewrite
+  457  sudo a2enmod rewrite
+  458  sudo service apache2 restart
+  459  sudo a2enmod  php7.4
+  460  sudo a2enmod mpm_prefork && sudo a2enmod php7.4
+  461  sudo systemctl restart apache2
+  462  ls /var/
+  463  ls /etc/apache2/mods-enabled/
+  464  cat  /etc/apache2/mods-enabled/php7.4.conf
+  465  cd ..
+  466  ls -l
+  467  sudo chmod -R 755 my_main/
+  468  ls -l
+  469  chmod -R o+w my_main/storage/
+  470  sudo chmod -R o+w my_main/storage/
+  471  sudo systemctl restart apache2
+  472  vi /etc/apache2/mods-enabled/php7.4.conf
+  473  sudo vi /etc/apache2/mods-enabled/php7.4.conf
+  474  sudo gedit /etc/apache2/mods-enabled/php7.4.conf
+  475  sudo systemctl restart apache2
+  476  ls
+  477  cd my_main/
+  478  ls
+  479  ls -la
+  480  ls  /home/hong4rc/Project/ansible/laravel/blog-fake/
+  481  ls -la  /home/hong4rc/Project/ansible/laravel/blog-fake/
+  482  ls
+  483  chown $USER *
+  484  sudo chown $USER *
+  485  ls -la
+  486  php artisan key:generate
+  487  sudo php artisan key:generate
+  488  ls
+  489  ls -la
+  490  php artisan cache:clear
+  491  sudo a2enmod php7.4
+  492  sudo a2dismod php5
+  493  sudo service apache2 restart
+  494  sudo gedit /etc/apache2/mods-enabled/php7.4.conf
+  495  sudo apachectl -t -D DUMP_MODULES | grep rewrite
+  496  cat /etc/apache2/sites-enabled/my_main.conf
+  497  gedit /etc/apache2/sites-enabled/my_main.conf
+  498  sudo gedit /etc/apache2/sites-enabled/my_main.conf
+  499  sudo service apache2 restart
+  500  ls
+  501  ls -la
+  502  cd ..
+  503  ls -la
+  504  chown root my_main/
+  505  sudo chown root my_main/
+  506  ls -la
+  507  cd my_main/
+  508  ls
+  509  ls -la
+  510  sudo chown root *
+  511  sudo chown -R root *
+  512  ls -la
+  513  sudo service apache2 restart
+  514  gedit /etc/apache2/sites-enabled/my_main.conf
+  515  echo $APACHE_LOG_DIR
+  516  apache2 -v
+  517  apache2 -V
+  518  sudo gedit /etc/apache2/sites-enabled/my_main.conf
+  519  sudo service apache2 restart
+  520  sudo gedit /etc/apache2/sites-enabled/my_main.conf
+  521  chmod -R 777 storage bootstrap/cache
+  522  sudo chmod -R 777 storage bootstrap/cache
+  523  ls -l
+  524  ls -l public/
+  525  ls
+  526  cd ..
+  527  ls
+  528  ls -la
+  529  sudo chmod 755 -R my_main/
+  530  chmod -R o+w my_main/storage/
+  531  sudo chmod -R o+w my_main/storage/
+  532  cat my_main/public/.htaccess
+  533  vi my_main/public/.htaccess
+  534  gedit my_main/public/.htaccess
+  535  sudo gedit my_main/public/.htaccess
+  536  sudo service apache2 restart
+  537  sudo php artisan cache:clear
+  538  cd my_main/
+  539  sudo php artisan cache:clear
+  540  sudo composer dump-autoload
+  541  sudo php artisan key:generate
+  542  ls
+  543  cd ..
+  544  mv my_main/ my_main.bak
+  545  sudo mv my_main/ my_main.bak
+  546  ls
+  547  sudo ls -s ~/Project/ansible/laravel/blog-fake my_main
+  548  sudo ls -s my_main ~/Project/ansible/laravel/blog-fake/
+  549  sudo ls -s  ~/Project/ansible/laravel/blog-fake/ ./my_main
+  550  sudo ls -s  ~/Project/ansible/laravel/blog-fake/ /var/www/my_main
+  551  sudo ln -s  ~/Project/ansible/laravel/blog-fake/ /var/www/my_main
+  552  ls
+  553  ls -la
+  554  ls -la
+  555  gedit /etc/apache2/sites-enabled/my_main.conf
+  556  history
+  557  history | grep 756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3
+  558  history > /home/hong4rc/Project/ansible/test/history.txt

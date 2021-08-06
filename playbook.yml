@@ -29,6 +29,7 @@
       apt:
         pkg:
           - apache2
+          - php7.4-cli
         update_cache: yes
         state: latest
 
@@ -39,24 +40,17 @@
         owner: "{{ app_user }}"
         mode: '0755'
 
-    - name: Clone fe build
+    - name: Clone backend build
       become_user: "{{ app_user }}"
       git:
-        repo: '{{ fe_repo }}'
-        dest: /opt/repository/test-fe
+        repo: '{{ be_repo }}'
+        dest: '/opt/repository/backend/{{ date }}'
         # key_file: /home/anss/.ssh/id_ed25519
 
-    - name: Build Fe
+    - name: Build laravel
       shell:
-        chdir: /opt/repository/test-fe
+        chdir: '/opt/repository/backend/{{ date }}'
         cmd: ./a.sh
-
-    - name: Create real folder
-      file:
-        path: "/var/www/_real_"
-        state: directory
-        owner: "{{ app_user }}"
-        mode: '0755'
 
     - name: Create document root
       file:
@@ -67,8 +61,8 @@
 
     - name: Create document BE root
       file:
-        dest: "/var/www/{{ http_host }}/backend"
-        src: "/var/www/_real_"
+        dest: "/var/www/{{ http_host }}"
+        src: '/opt/repository/backend/{{ date }}'
         state: link
         owner: "{{ app_user }}"
         mode: '0755'
